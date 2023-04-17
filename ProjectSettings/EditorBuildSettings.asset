@@ -29,7 +29,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Mechanics/Fantasy_Game/Doctor/Doctor.unity
     guid: 862171f7a6149c3489fbc1fa50ea5c64
-  - enabled: 1
+  - enabled: 0
     path: Assets/Mechanics/Scenes/Finger_Box/Finger_Box.unity
     guid: f3045414bfc45894b91b9baeabf5e564
+  - enabled: 1
+    path: Assets/Mechanics/QUIZ/Menu_Sosna.unity
+    guid: e39c02aae5f7bc84a923deb5c429db39
+  - enabled: 1
+    path: Assets/Mechanics/QUIZ/Quiz/Quiz_Wall.unity
+    guid: 257b01db346c42245b4e010dcf3af1e7
+  - enabled: 1
+    path: Assets/Mechanics/QUIZ/Bear_Kill/Bear_Kill.unity
+    guid: b59a16835ddb5604ab76c831ab65aa66
   m_configObjects: {}

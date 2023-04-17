@@ -9,7 +9,8 @@ public class SceneController : MonoBehaviour
     public GameObject infoPanel;
     public void RestartScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
+        SceneManager.
+            LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
     }
 
     private void Update()
@@ -23,6 +24,13 @@ public class SceneController : MonoBehaviour
         {
             FindObjectOfType<ObjectSpawnerControl>().gameObject.GetComponent<ObjectSpawnerControl>().enabled = true;
             FindObjectOfType<TimerControl>().gameObject.GetComponent<TimerControl>().enabled = true;
+            infoPanel.SetActive(false);
+            Camera.main.gameObject.GetComponent<AudioSource>().enabled = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            FindObjectOfType<BearHands>().gameObject.GetComponent<BearHands>().enabled = true;
             infoPanel.SetActive(false);
             Camera.main.gameObject.GetComponent<AudioSource>().enabled = true;
         }
