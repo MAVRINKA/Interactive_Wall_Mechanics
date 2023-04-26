@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/PuzzleRotate/TouchWall.unity
+    path: Assets/Mechanics/PuzzleRotate/TouchWall.unity
     guid: 71734703d43ed0f4f9cd9eb1fefcfc07
   - enabled: 0
-    path: Assets/ScratchCard/Coloring_Wall.unity
+    path: Assets/Mechanics/ScratchCard/Coloring_Wall.unity
     guid: eec2c154c347f2a4ea463eaa1e1d4241
   - enabled: 0
     path: Assets/Mechanics/Scenes/SandBoxGame.unity
@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Mechanics/Scenes/Kidalki/Cosmos/Wall_Throw_Kids_Cosmos.unity
     guid: 691ef465259fdb74abdfa0cda3dcb3ff
-  - enabled: 0
+  - enabled: 1
     path: Assets/Mechanics/Fantasy_Game/Krokodile/Krocodile.unity
     guid: 4d60de3e4385d944bb88c06af3b3d7a5
   - enabled: 0
@@ -32,13 +32,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Mechanics/Scenes/Finger_Box/Finger_Box.unity
     guid: f3045414bfc45894b91b9baeabf5e564
-  - enabled: 1
-    path: Assets/Mechanics/QUIZ/Menu_Sosna.unity
+  - enabled: 0
+    path: Assets/Mechanics/Quiz/Menu_Sosna.unity
     guid: e39c02aae5f7bc84a923deb5c429db39
-  - enabled: 1
-    path: Assets/Mechanics/QUIZ/Quiz/Quiz_Wall.unity
+  - enabled: 0
+    path: Assets/Mechanics/Quiz/Quiz/Quiz_Wall.unity
     guid: 257b01db346c42245b4e010dcf3af1e7
-  - enabled: 1
-    path: Assets/Mechanics/QUIZ/Bear_Kill/Bear_Kill.unity
+  - enabled: 0
+    path: Assets/Mechanics/Quiz/Bear_Kill/Bear_Kill.unity
     guid: b59a16835ddb5604ab76c831ab65aa66
   m_configObjects: {}
