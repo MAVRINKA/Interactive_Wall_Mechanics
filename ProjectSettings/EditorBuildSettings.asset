@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Mechanics/Kidalki/Cosmos/Wall_Throw_Kids_Cosmos.unity
     guid: 691ef465259fdb74abdfa0cda3dcb3ff
-  - enabled: 1
+  - enabled: 0
     path: Assets/Mechanics/Fantasy_Game/Krokodile/Krocodile.unity
     guid: 4d60de3e4385d944bb88c06af3b3d7a5
   - enabled: 0
@@ -41,4 +41,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Mechanics/Quiz/Bear_Kill/Bear_Kill.unity
     guid: b59a16835ddb5604ab76c831ab65aa66
+  - enabled: 1
+    path: Assets/Mechanics/ShootingGallery/Scenes/ShootMenu.unity
+    guid: 9bdc60bf12e1b4c4e9c6d7c9b52e10a9
+  - enabled: 1
+    path: Assets/Mechanics/ShootingGallery/Scenes/ShootIntWall.unity
+    guid: af9c4721e77136541a0572e0c3771172
+  - enabled: 1
+    path: Assets/Mechanics/ShootingGallery/Scenes/TestTargets.unity
+    guid: 5f112c8b2ea5368428af0eba68eb71b8
   m_configObjects: {}

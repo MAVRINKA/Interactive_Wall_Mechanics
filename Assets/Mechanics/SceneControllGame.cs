@@ -5,14 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneControllGame : MonoBehaviour
 {
-    public static SceneControllGame Instance;
-
-    private void Awake()
-    {
-        Instance = this;
-    }
-
-    public enum Scene { Menu, NextScene, Restart }
+    //public enum Scene { Menu, NextScene, Restart }
     public void NextScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -26,5 +19,10 @@ public class SceneControllGame : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
+    }
+
+    public void NextSceneName(string name)
+    {
+        SceneManager.LoadScene(name);
     }
 }

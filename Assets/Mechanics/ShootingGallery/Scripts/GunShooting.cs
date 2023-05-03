@@ -12,9 +12,9 @@ public class GunShooting : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
         {
-            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.touches[0].position);
 
             Collider2D col = Physics2D.OverlapCircle(mousePos, 0.01f);
 
@@ -23,11 +23,12 @@ public class GunShooting : MonoBehaviour
                 Target target = col.GetComponentInParent<Target>();
                 target.Hit(mousePos);
             }
-            else
-            {
-                SoundPlayer.Play(NoHitSound);
-            }
+            //else
+            //{
+            //    SoundPlayer.Play(NoHitSound);
+            //}
         }
+
     }
 
     private void OnDestroy()

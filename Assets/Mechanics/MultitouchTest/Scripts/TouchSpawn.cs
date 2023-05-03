@@ -11,7 +11,7 @@ public class TouchSpawn : MonoBehaviour
     //public ParticleSystem particle;
     //public List<GameObject> particles = new List<GameObject>();
 
-    void WhackMole()
+    void TouchNow()
     {
         switch (inputStyle)
         {
@@ -53,7 +53,7 @@ public class TouchSpawn : MonoBehaviour
 
     void Update()
     {
-        WhackMole();
+        TouchNow();
     }
 
     GameObject SpawnObjects()

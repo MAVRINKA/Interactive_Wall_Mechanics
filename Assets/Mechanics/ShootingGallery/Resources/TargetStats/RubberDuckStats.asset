@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RubberDuckStats
   m_EditorClassIdentifier: 
   Id: 2
-  Sprite: {fileID: 21300000, guid: 4f4af50fe1703644499d326de6af68c4, type: 3}
+  Sprite: {fileID: 21300000, guid: 0030be31983af46459a1b45880cec502, type: 3}
   Points: 20
   IsDuck: 1
   SpawnChance: 1

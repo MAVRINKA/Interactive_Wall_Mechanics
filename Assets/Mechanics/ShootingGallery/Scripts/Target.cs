@@ -110,7 +110,7 @@ public class Target : MonoBehaviour
         if (Stats != null)
         {
             Score.ChangeScore(Stats.Points);
-            PointsManager.ShowPoints(Stats.Points, position + Vector2.up * 0.5f + Vector2.left * 0.5f);
+            PointsManager.ShowPoints(Stats.Points, position + Vector2.up * 0.01f + Vector2.left * 2f);
         }
 
         TargetHitAnimator.enabled = true;
